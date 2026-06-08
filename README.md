@@ -31,10 +31,10 @@ O pipeline foi desenhado seguindo as melhores práticas de Engenharia de Dados m
 
 3. Crie um arquivo .env na raiz do projeto seguindo o modelo:
 
-  `OPENWEATHER_API_KEY=seu_token_aqui
-  AWS_ACCESS_KEY_ID=sua_chave_aqui
-  AWS_SECRET_ACCESS_KEY=seu_segredo_aqui
-  AWS_BUCKET_NAME=nome_do_seu_bucket`
+  `OPENWEATHER_API_KEY=seu_token_aqui`
+  `AWS_ACCESS_KEY_ID=sua_chave_aqui`
+  `AWS_SECRET_ACCESS_KEY=seu_segredo_aqui`
+  `AWS_BUCKET_NAME=nome_do_seu_bucket`
 
 4. Execute o pipeline:
    `uv run main.py`
